@@ -1,0 +1,112 @@
+.wrap{
+.img_state{display: block;margin: 18px auto 0;width: 790px;height: 71px;}
+.dingdan_state{min-height: 122px;background: #fff5ff;width: 100%;box-sizing:border-box;margin: 0 auto;border: 1px solid #fec3ba;}
+.dingdan_title{box-sizing:content-box;height: 23px;margin: 0 11px;padding-bottom: 13px;border-bottom: 1px solid #ffd7db;font-size: 16px;font-weight: 800;padding-top: 16px;padding-left: 33px;}
+.my_state{color: #009e16;}
+.confirm_button{
+    background: #fd583f;
+color: #fff;
+width: 71px;
+height: 21px;
+line-height: 21px;
+text-align: center;
+font-size: 12px;
+display: inline-block;
+border-radius: 5px;
+font-weight: normal;
+margin-left: 18px;}
+.dingdan_tip{font-size: 12px;margin-top: 18px;margin-left: 44px;}
+.dingdan_tip_title{color: #fd583f;font-weight: 800;}
+.dingdan_tip2{font-size: 12px;margin-left: 104px;margin-top: 5px;}
+.accept_information_wrap{margin-top: 41px;margin-bottom: 5px;}
+.accept_information{font-size: 16px;font-weight: 800;margin-bottom: 10px;}
+    .grey_line{height: 2px; background: #dcdcdc;}
+.name_phone{padding-left: 76px;}
+.name_address{padding-left: 76px;}
+.dingdan_my_detail{box-sizing: border-box;margin-bottom: 30px;}
+.dingdan_information{width: 50%;float: left;}
+.self_information{margin-bottom: 5px;}
+.my_number{    display: inline-block;
+    width: 117px;
+    text-align: right;}
+    .vertical-mid{vertical-align: middle;}
+.cart_table{
+border:1px solid  #ccc;
+    th{border:1px solid  #ccc;color: #767676;    height: 40px;
+    line-height: 22px;}
+td{height: 99px;position: relative;border-bottom: 1px solid #d5d5d5;color: #5f5f5f;border-right: 1px solid #ccc;}
+    }
+    
+    .choose_all{text-align: left;padding-left: 15px;width: 9.1%;}
+  .cart_product_img{margin-left: 11px;margin-right: 15px;display: inline-block;width: 71px;height: 71px;
+  border: 1px solid #bcbcbc;position: relative;top: 2px;}
+
+.item_title_name{    width: 68%;
+    line-height: 14px !important;
+    position: absolute;
+    top: 19px;}
+    .item_title_name a{color: #4c4c4c;}
+     .item_title_name a:hover{text-decoration: underline;}
+    .guige{position: absolute;top:81px;color: #008aff;}
+    .align_center{text-align: center;width: 128px;}
+    .add_number{width: 25px;height: 25px;border: 1px solid #b8b8b8;display: inline-block;font-size: 24px;color: #b8b8b8;cursor: pointer;}
+    .add_number:hover{border: 1px solid #d4007e;color: #D4007E;}
+    .number_item{font-size:14px;border: 1px solid #b8b8b8;-webkit-appearance: none;height: 25px;position: relative;top: -5px;border-left: none;border-right: none;width: 37px;text-align: center;box-shadow: 0px 0px #fff;}
+    .total_price{color: #ff6000;font-weight: 800;}
+    .del_item{color: #6d6d6d;cursor: pointer;}
+    .del_item:hover{color: #d4007e;}
+    .checkout_column{
+    width:100%;
+    height: 46px;
+    background: #f3f3f3;
+    line-height: 46px;
+    text-align: right;
+    border: 1px solid #cbcbcb;
+    border-top: none;
+        box-sizing: border-box;}
+    .cheout_wrap{color: #616161;font-size: 14px;padding-right: 42px;position: relative;}
+    .total_light{color: #ff6000;font-size: 18px;font-weight: 800;}
+    .little_price_total{font-size: 14px;}
+    .little_item{font-weight: normal;font-size: 14px;}
+    .already_choose{margin-right: 30px;}
+    .zi_line{width: 950px;height: 4px;background: #d4007e;}
+    .my_liuyan{font-weight: 800;font-size: 14px;color: #000;}
+    .liuyan_column{ width: 100%;line-height: 150%;
+    padding: 11px 15px;
+    border: 1px solid #cbcbcb;
+    border-top: none;
+    font-size: 12px;
+    color: #5a5a5a;
+    min-height: 78px;
+    box-sizing: border-box;
+    }
+    
+    .my_detail_button{margin-left: 13px;cursor: pointer;font-weight: normal;color: #000;border: 1px solid #b1b1b1;
+    display:inline-block;width: 68px;height: 21px;line-height: 21px; border-radius:5px;
+    font-size: 12px;background: url(img/dingdan_bg.png);text-align: center;}
+    .my_detail_button:active{background: #f1f1f1;}
+    .wuliu_td{background: #e3efff;height: 50px;font-size: 12px;color: #666;}
+    .wuliu_td *{padding-left: 12px;}
+    .kuaidi_content{width: 251px;    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; display: inline-block; color: #C60;    overflow: hidden;
+    white-space: nowrap;
+    position: relative;top: 3px;
+   }
+   .show_more{color: #5f5f5f;}
+   .show_more:hover{color: #c71314;}
+   .list_parent{position: relative;z-index: 10;}
+   .use_more{ display: none;   border: 1px solid #d8d7d7;padding: 5px 0;padding-right: 12px;position: absolute;top: 25px;left:-402px;min-width: 460px;white-space: nowrap;background: #f5f5f5;}
+   .use_more div{padding-bottom: 5px;color: #666;}
+   .use_more_img{position: absolute;top: 15px;left: 17px;display: none;}
+   .cost_table{
+       margin-bottom: 20px;
+       td{
+           border: 1px solid #ccc;
+          
+       }
+       .text-right{padding: 8px 30px 0 0;}
+       .name{ padding-left: 50px;height: 38px;}
+   }
+}

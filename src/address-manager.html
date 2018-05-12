@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<title></title>
+		<meta name="description" content="代理套餐"> 
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+		<script type="text/javascript" src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
+		<![endif]--> 
+		<link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<!--header--><!--headerend-->
+		<article class="clearfix container">
+		<!--aside--><!--asideend-->
+		<section class="pull-right my-content">
+				<div class="mianbao mt20">
+					<a href="#">我的云鸟</a><span>></span><a href="#">地址管理</a>
+				</div>
+				<div class="information">
+					<div class="address_tag mt20">
+					<ul class="clearfix">
+						<li class="icon-adress_bg pull-left">
+							<div class="name text-overflow">赵建国</div>
+							<div class="location text-overflow">甘肃省金昌市金川区昌文里(25区)22栋2口203号</div>
+							<div class="phone text-overflow">18993505756</div>
+							<div class="change">修改</div>
+							<div class="default icon-moren">默认地址</div>
+							<div class="icon-gou-green"></div>
+							<div class="del">删除</div>
+						</li>
+						<li class="icon-adress_bg pull-left">
+							<div class="name text-overflow">赵建国</div>
+							<div class="location text-overflow">甘肃省金昌市金川区昌文里(25区)22栋2口203号</div>
+							<div class="phone text-overflow">18993505756</div>
+							<div class="btn change">修改</div>
+							<div class="default set">设为默认</div>
+						</li>
+					</ul>
+					</div>
+					<div class="futou_list  person_information">
+							<div class="title">新增收货地址</div>
+							<div class="futou_div"><label for=""><span class="xin">*</span>收货人 :</label><input type="text" placeholder="收货人姓名" class="input-text name" /><span class="tip"><span>!</span>此项不可改</span>
+							</div>
+							<div class="futou_div"><label for=""><span class="xin">*</span>联系方式 :</label><input type="text" placeholder="手机号码" class="input-text name" /><span class="tip"><span>!</span>此项不可改</span>
+							</div>
+							<div class="futou_div birth"><label for=""><span class="xin">*</span>地址 :</label>
+								<span class="select-box">
+						  <select class="select" size="1" name="demo1">
+						    <option value="" selected>省/直辖市</option>
+						    <option value="1">广西</option>
+						  </select>
+						</span>
+								<span class="select-box">
+						  <select class="select" size="1" name="demo1">
+						    <option value="" selected>市</option>
+						    <option value="1">南宁</option>
+						  </select>
+						</span>
+								<span class="select-box">
+						  <select class="select" size="1" name="demo1">
+						    <option value="" selected>区/县</option>
+						    <option value="1">兴宁</option>
+						  </select>
+						</span>
+							<span class="select-box">
+						  <select class="select" size="1" name="demo1">
+						    <option value="" selected>乡镇/街道</option>
+						    <option value="1">合作路</option>
+						  </select>
+						</span>
+							
+							
+					</div>
+					<div class="futou_div"><label for=""></label><input type="text" placeholder="请输入详细地址"  /></div>
+					<div class="futou_div">
+								<label for=""><span class="xin">*</span>是否默认 :</label>
+									<span class="radio_wrap"><input type="radio" name="sex"/>男
+										<input type="radio" name="sex"/>女</span>
+							</div>
+							<div class="btn icon-button4">提交</div>
+				</div>
+				
+		</section>
+		<section>
+			
+		</section>
+		</article>
+		
+		
+		<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".icon-button3").click(function(){
+					$(".futou_list").removeClass("hidden");
+				})
+				$(".change").click(function(){
+						$(".futou_list").removeClass("hidden");
+						$(".person_information .title").text("修改收货地址")
+					})
+			})
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				$(".no_under:contains('地址管理')").parent().parent().parent().siblings("dt").trigger("click");
+				$(".no_under:contains('地址管理')").addClass("active");
+			})
+		</script>
+	</body>
+</html>

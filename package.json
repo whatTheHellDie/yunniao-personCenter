@@ -1,0 +1,41 @@
+{
+  "name": "default",
+  "version": "7.5.2",
+  "description": "A lightweight front-end boilerplate",
+  "author": "YaoHaoYan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatTheHellDie/myDefault"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-file-include": "^0.11.1",
+    "gulp-flatten": "^0.0.4",
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "1.2.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^1.11.1",
+    "gulp-markdown": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.3",
+    "gulp-tap": "^0.1.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.2.4",
+    "gulp.spritesmith": "^6.3.0",
+    "http-server": "^0.9.0",
+    "imagemin-pngquant": "^5.0.0",
+    "jshint-stylish": "^2.0.1",
+    "lazypipe": "^0.2.4",
+    "node-fs": "^0.1.7",
+    "phantomjs": "^1.9.19"
+  }
+}

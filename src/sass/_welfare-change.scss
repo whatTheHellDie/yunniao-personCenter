@@ -1,0 +1,71 @@
+.yeji_wrap{border: 1px solid #ccc;}
+.person_wel {
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0 15px 24px;
+}
+.my-yeji{color: #fd583f;margin-left: 20px;font-weight: normal;}
+.yeji {
+    margin-top: 26px;
+    text-align: center
+}
+
+.yeji ul {
+    margin: 0 auto;
+    display: inline-block
+}
+
+.yeji li {
+    width: 192px;
+    height: 338px;
+    margin: 0 67px;
+    background-image: url(../img/yeji.png);
+    font-size: 17px;
+    color: #fff;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-align: center
+}
+
+.yeji .value {
+    font-size: 29px;
+    margin-top: -3px
+}
+
+.yeji img {
+    position: relative;
+    left: -7px;
+    top: 12px;
+    width: 206px;
+    height: 123px
+}
+
+.yeji .get {
+    width: 208px;
+    position: relative;
+    left: -8px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 3px
+}
+
+.yeji .btn-get {
+    margin-top: 20px;
+    background: #ccc;
+    background-image: -moz-linear-gradient(90deg, #c2c2c2 0, #ededed 100%);
+    background-image: -webkit-linear-gradient(90deg, #c2c2c2 0, #ededed 100%);
+    background-image: -ms-linear-gradient(90deg, #c2c2c2 0, #ededed 100%);
+    color: grey;
+    width: 80px;
+    text-align: center;
+    padding: 0;
+    line-height: 30px;
+    border-radius: 5px
+}
+
+.yeji .active {
+    background: #fd583f;
+    background-image: -moz-linear-gradient(90deg, #fd1f1f 0, #fd583f 100%);
+    background-image: -webkit-linear-gradient(90deg, #fd1f1f 0, #fd583f 100%);
+    background-image: -ms-linear-gradient(90deg, #fd1f1f 0, #fd583f 100%);
+    color: #fff
+}
